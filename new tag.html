@@ -28,11 +28,11 @@
 	<a href="https://www.zhixi.com/space?page=owner"><img src="img/zhixu.png"/></a>
 	<a href=""><img src=""/></a>
 	<div id='aa'></div>
-	<br><input id='bb' type="text" />
-	<br><input id='cc' type="text" />
-	<input type="submit" value="添加" onclick="add_tag(document.getElementById('bb').value,document.getElementById('cc').value)"/>
-
-
+	<form  action="AddTag.php" method="$_POST">
+		<br><input nmae='url' type="text" />
+		<br><input id='ico' type="text" />
+		<input  type="submit" value="添加"/>
+	</form>
 
 </body>
 </html>
